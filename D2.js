@@ -210,6 +210,8 @@ array1.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-array1.pop();
-array1.push(100);
+array1.splice(9, 1, 100);
+
+// array1.pop();
+// array1.push(100);
 console.log(array1);
